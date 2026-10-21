@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Tu Detalle Chincha</title>
+  <meta name="description" content="Regalos y detalles personalizados en Chincha para aniversarios, cumpleaños, Día de la Madre, San Valentín y cada momento que merece convertirse en recuerdo.">
+  <meta name="theme-color" content="#0d3a2b">
+  <link rel="icon" href="imagenes/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=Jost:wght@300;400;500;600&family=Parisienne&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/productos.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script>document.documentElement.classList.add('js');try{if(sessionStorage.getItem('tdc-intro'))document.documentElement.classList.add('no-intro')}catch(e){}</script>
+  <script defer src="js/config.js"></script>
+  <script defer src="js/ilustraciones.js"></script>
+  <script defer src="js/productos.js"></script>
+  <script defer src="js/animations.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+<body class="page-home">
+
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+
+  <!-- ============ INTRO CINEMATOGRÁFICA ============ -->
+  <div class="intro" id="intro" aria-hidden="true">
+    <div class="intro__inner">
+      <svg class="intro__waves" viewBox="0 0 400 60" preserveAspectRatio="none">
+        <path pathLength="1" d="M0 30 C 50 5, 100 55, 150 30 S 250 5, 300 30 S 375 50, 400 30"/>
+        <path pathLength="1" d="M0 42 C 60 20, 110 62, 170 40 S 270 18, 330 42 S 380 55, 400 44"/>
+      </svg>
+      <p class="intro__script">Tu Detalle</p>
+      <p class="intro__sub">Chincha</p>
+    </div>
+  </div>
+
+  <div class="thread" aria-hidden="true"><span class="thread__bar"></span></div>
+  <div class="cursor" aria-hidden="true"><span class="cursor__dot"></span><span class="cursor__ring"><span class="cursor__label"></span></span></div>
+
+  <!-- ============ NAVEGACIÓN ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a class="brand" href="index.html" aria-label="Tu Detalle Chincha, ir al inicio">
+        <img class="brand__img" src="imagenes/logo.png" alt="" width="150" height="60">
+        <span class="brand__type" aria-hidden="true">
+          <svg class="brand__waves" viewBox="0 0 120 20" preserveAspectRatio="none"><path d="M0 12 C 15 2, 30 20, 45 10 S 75 2, 90 10 S 110 18, 120 8"/></svg>
+          <span class="brand__script">Tu Detalle</span>
+          <span class="brand__sub">Chincha</span>
+        </span>
+      </a>
+      <nav class="nav__menu" aria-label="Principal">
+        <a href="#inicio" class="nav__link is-active">Inicio</a>
+        <a href="productos.html" class="nav__link">Detalles</a>
+        <a href="#ocasiones" class="nav__link">Ocasiones</a>
+        <a href="#personalizados" class="nav__link">Personalizados</a>
+        <a href="nosotros.html" class="nav__link">Nosotros</a>
+        <a href="contacto.html" class="nav__link">Contacto</a>
+      </nav>
+      <a class="btn btn--nav" href="#encuentra" data-magnetic>Encuentra tu detalle</a>
+      <button class="burger" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="mmenu" id="mobile-menu" hidden>
+    <svg class="mmenu__waves" viewBox="0 0 400 200" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 80 C 80 30, 160 130, 240 80 S 360 30, 400 70"/><path d="M0 110 C 90 60, 170 160, 250 110 S 370 60, 400 100"/>
+    </svg>
+    <nav class="mmenu__links" aria-label="Menú móvil">
+      <a href="#inicio" style="--i:0">Inicio</a>
+      <a href="productos.html" style="--i:1">Detalles</a>
+      <a href="#ocasiones" style="--i:2">Ocasiones</a>
+      <a href="#personalizados" style="--i:3">Personalizados</a>
+      <a href="nosotros.html" style="--i:4">Nosotros</a>
+      <a href="contacto.html" style="--i:5">Contacto</a>
+    </nav>
+    <a class="btn btn--gold mmenu__cta" href="#encuentra">Encuentra tu detalle</a>
+    <p class="mmenu__script">Un detalle puede decir lo que las palabras no pueden.</p>
+  </div>
+
+  <main id="contenido">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero__bg" aria-hidden="true">
+        <span class="glow glow--1"></span><span class="glow glow--2"></span>
+        <svg class="hero__lines" viewBox="0 0 1440 800" preserveAspectRatio="none">
+          <path d="M-20 620 C 200 520, 380 720, 620 600 S 1040 480, 1460 560"/>
+          <path d="M-20 660 C 220 560, 400 760, 640 640 S 1060 520, 1460 600"/>
+          <path d="M-20 180 C 240 120, 420 260, 700 170 S 1140 80, 1460 150"/>
+        </svg>
+        <div class="motes"></div>
+      </div>
+
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <p class="hero__eyebrow" data-hero="2"><span class="script">Tu Detalle</span><span class="hero__dot"></span>Chincha</p>
+          <h1 class="hero__title" id="hero-title" data-split>Hay momentos que merecen convertirse en <em class="hero__em">recuerdos.<svg class="hero__underline" viewBox="0 0 300 24" preserveAspectRatio="none" aria-hidden="true"><path pathLength="1" d="M4 16 C 60 4, 120 22, 180 12 S 260 6, 296 14"/></svg></em></h1>
+          <p class="hero__lead" data-hero="4">Encuentra ese detalle especial para hacer inolvidable una fecha, una persona o un momento.</p>
+          <div class="hero__actions" data-hero="5">
+            <a class="btn btn--gold" href="#encuentra" data-magnetic><span>Encontrar mi detalle</span></a>
+            <a class="btn btn--ghost" href="#detalles" data-magnetic><span>Ver colección</span></a>
+          </div>
+          <p class="hero__quote" data-hero="6">Un detalle puede decir lo que las palabras no pueden.</p>
+        </div>
+
+        <div class="hero__stage" role="img" aria-label="Composición de regalos: caja sorpresa, flores, globos, chocolates, peluche y tarjeta">
+          <svg class="hero__ribbon" viewBox="0 0 600 640" aria-hidden="true">
+            <path pathLength="1" d="M-10 520 C 90 420, 40 300, 170 260 S 360 330, 420 210 S 520 60, 620 90"/>
+          </svg>
+          <div class="htile htile--main" data-depth="0.35" data-from="up">
+            <figure class="media" data-art="gift" data-tone="emerald"><img src="imagenes/hero/box-sorpresa.jpg" alt="" decoding="async"></figure>
+          </div>
+          <div class="htile htile--flores" data-depth="0.7" data-from="left">
+            <figure class="media" data-art="bouquet" data-tone="blush"><img src="imagenes/hero/flores.jpg" alt="" decoding="async"></figure>
+          </div>
+          <div class="htile htile--globos" data-depth="1" data-from="right">
+            <figure class="media" data-art="balloon" data-tone="champagne"><img src="imagenes/hero/globos.jpg" alt="" decoding="async"></figure>
+          </div>
+          <div class="htile htile--choco" data-depth="0.55" data-from="down">
+            <figure class="media" data-art="choco" data-tone="cream"><img src="imagenes/hero/chocolates.jpg" alt="" decoding="async"></figure>
+          </div>
+          <div class="htile htile--oso" data-depth="0.9" data-from="left">
+            <figure class="media" data-art="bear" data-tone="pastel"><img src="imagenes/hero/peluche.jpg" alt="" decoding="async"></figure>
+          </div>
+          <div class="htile htile--tarjeta" data-depth="1.2" data-from="right">
+            <div class="note-card">
+              <span class="note-card__to">Para ti,</span>
+              <span class="note-card__msg">porque hay cosas que se dicen mejor con un detalle.</span>
+            </div>
+          </div>
+          <div class="seal" data-depth="1.4" aria-hidden="true">
+            <svg viewBox="0 0 120 120"><defs><path id="seal-path" d="M60 60 m-44 0 a44 44 0 1 1 88 0 a44 44 0 1 1 -88 0"/></defs>
+              <text><textPath href="#seal-path">hecho a mano · con amor · en Chincha ·</textPath></text></svg>
+            <svg class="seal__icon"><use href="#i-heart"></use></svg>
+          </div>
+          <span class="float-dec float-dec--1" aria-hidden="true"></span>
+          <span class="float-dec float-dec--2" aria-hidden="true"></span>
+          <span class="float-dec float-dec--3" aria-hidden="true"></span>
+        </div>
+      </div>
+
+      <a class="hero__scroll" href="#ocasiones" aria-label="Bajar a ocasiones"><span>Desliza</span><i></i></a>
+    </section>
+
+    <div class="wave" data-wave style="--from:var(--deep);--to:var(--cream)" aria-hidden="true">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path class="wave__fill" d="M0 70 C240 30 480 110 720 70 S1200 30 1440 70 V120 H0Z"/><path class="wave__line" d="M0 52 C240 12 480 92 720 52 S1200 12 1440 52"/></svg>
+    </div>
+
+    <!-- ============ ¿PARA QUIÉN ES? ============ -->
+    <section class="occasions sec sec--cream" id="ocasiones" aria-labelledby="occ-title">
+      <div class="container">
+        <header class="sec-head sec-head--split">
+          <div>
+            <p class="eyebrow" data-reveal="up">¿Para quién es tu detalle?</p>
+            <h2 class="h2" id="occ-title" data-reveal="blur">Cuéntame para quién es<span class="dots"><i>.</i><i>.</i><i>.</i></span></h2>
+          </div>
+          <p class="sec-head__lead" data-reveal="up">Cada persona se merece un gesto distinto. Elige a quién quieres sorprender y te mostramos los detalles pensados para ese momento.</p>
+        </header>
+
+        <div class="occ-grid" data-stagger>
+          <a class="occ" href="productos.html#pareja" data-reveal="up" data-tilt data-cursor="Ver">
+            <figure class="media" data-art="heart" data-tone="deep"><img src="imagenes/categorias/pareja.jpg" alt="Detalles para regalar a tu pareja" loading="lazy" decoding="async"></figure>
+            <span class="occ__veil"></span><span class="occ__shine"></span>
+            <span class="occ__body"><svg class="occ__ico"><use href="#i-heart"></use></svg><span class="occ__small">Pareja</span><span class="occ__name">Para mi pareja</span><span class="occ__go">Ver detalles</span></span>
+          </a>
+          <a class="occ" href="productos.html#cumpleanos" data-reveal="up" data-tilt data-cursor="Ver">
+            <figure class="media" data-art="cake" data-tone="champagne"><img src="imagenes/categorias/cumpleanos.jpg" alt="Detalles para un cumpleaños" loading="lazy" decoding="async"></figure>
+            <span class="occ__veil"></span><span class="occ__shine"></span>
+            <span class="occ__body"><svg class="occ__ico"><use href="#i-cake"></use></svg><span class="occ__small">Cumpleaños</span><span class="occ__name">Para un cumpleaños</span><span class="occ__go">Ver detalles</span></span>
+          </a>
+          <a class="occ" href="productos.html#mama" data-reveal="up" data-tilt data-cursor="Ver">
+            <figure class="media" data-art="rose" data-tone="blush"><img src="imagenes/categorias/mama.jpg" alt="Detalles para mamá" loading="lazy" decoding="async"></figure>
+            <span class="occ__veil"></span><span class="occ__shine"></span>
+            <span class="occ__body"><svg class="occ__ico"><use href="#i-rose"></use></svg><span class="occ__small">Mamá</span><span class="occ__name">Para mamá</span><span class="occ__go">Ver detalles</span></span>
+          </a>
+          <a class="occ" href="productos.html#papa" data-reveal="up" data-tilt data-cursor="Ver">
+            <figure class="media" data-art="tie" data-tone="emerald"><img src="imagenes/categorias/papa.jpg" alt="Detalles para papá" loading="lazy" decoding="async"></figure>
+            <span class="occ__veil"></span><span class="occ__shine"></span>
+            <span class="occ__body"><svg class="occ__ico"><use href="#i-tie"></use></svg><span class="occ__small">Papá</span><span class="occ__name">Para papá</span><span class="occ__go">Ver detalles</span></span>
+          </a>
+          <a class="occ" href="productos.html#aniversario" data-reveal="up" data-tilt data-cursor="Ver">
+            <figure class="media" data-art="ring" data-tone="cream"><img src="imagenes/categorias/aniversario.jpg" alt="Detalles para un aniversario" loading="lazy" decoding="async"></figure>
+            <span class="occ__veil"></span><span class="occ__shine"></span>
+            <span class="occ__body"><svg class="occ__ico"><use href="#i-ring"></use></svg><span class="occ__small">Aniversario</span><span class="occ__name">Para un aniversario</span><span class="occ__go">Ver detalles</span></span>
+          </a>
+          <a class="occ" href="productos.html#graduacion" data-reveal="up" data-tilt data-cursor="Ver">
+            <figure class="media" data-art="cap" data-tone="deep"><img src="imagenes/categorias/graduacion.jpg" alt="Detalles para una graduación" loading="lazy" decoding="async"></figure>
+            <span class="occ__veil"></span><span class="occ__shine"></span>
+            <span class="occ__body"><svg class="occ__ico"><use href="#i-cap"></use></svg><span class="occ__small">Graduación</span><span class="occ__name">Para una graduación</span><span class="occ__go">Ver detalles</span></span>
+          </a>
+          <a class="occ" href="productos.html#nacimiento" data-reveal="up" data-tilt data-cursor="Ver">
+            <figure class="media" data-art="bear" data-tone="pastel"><img src="imagenes/categorias/nacimiento.jpg" alt="Detalles para un nacimiento" loading="lazy" decoding="async"></figure>
+            <span class="occ__veil"></span><span class="occ__shine"></span>
+            <span class="occ__body"><svg class="occ__ico"><use href="#i-baby"></use></svg><span class="occ__small">Nacimiento</span><span class="occ__name">Para un nacimiento</span><span class="occ__go">Ver detalles</span></span>
+          </a>
+          <a class="occ" href="productos.html#especial" data-reveal="up" data-tilt data-cursor="Ver">
+            <figure class="media" data-art="sparkle" data-tone="champagne"><img src="imagenes/categorias/especial.jpg" alt="Detalles para una ocasión especial" loading="lazy" decoding="async"></figure>
+            <span class="occ__veil"></span><span class="occ__shine"></span>
+            <span class="occ__body"><svg class="occ__ico"><use href="#i-sparkle"></use></svg><span class="occ__small">Especial</span><span class="occ__name">Para una ocasión especial</span><span class="occ__go">Ver detalles</span></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="wave" data-wave style="--from:var(--cream);--to:var(--emerald-d)" aria-hidden="true">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path class="wave__fill" d="M0 70 C240 30 480 110 720 70 S1200 30 1440 70 V120 H0Z"/><path class="wave__line" d="M0 52 C240 12 480 92 720 52 S1200 12 1440 52"/></svg>
+    </div>
+
+    <!-- ============ ASISTENTE: ENCUENTRA EL DETALLE PERFECTO ============ -->
+    <section class="finder sec sec--emerald" id="encuentra" aria-labelledby="finder-title">
+      <div class="finder__deco" aria-hidden="true"><span></span><span></span><span></span></div>
+      <div class="container">
+        <header class="sec-head sec-head--center">
+          <p class="eyebrow eyebrow--light" data-reveal="up">Encuentra el detalle perfecto</p>
+          <h2 class="h2 h2--light" id="finder-title" data-reveal="blur">Vamos a encontrar el detalle <em>perfecto</em> para ti.</h2>
+        </header>
+
+        <div class="finder__card" data-reveal="scale">
+          <ol class="finder__progress" aria-label="Progreso">
+            <li class="is-current"><span>1</span>Para quién</li>
+            <li><span>2</span>Qué sientes</li>
+            <li><span>3</span>La ocasión</li>
+            <li><span>4</span>Ideas</li>
+            <span class="finder__bar" aria-hidden="true"><i></i></span>
+          </ol>
+
+          <div class="finder__viewport" aria-live="polite">
+            <div class="fstep is-current" data-step="1" data-key="para">
+              <h3 class="fstep__q">¿Para quién es?</h3>
+              <div class="fopts">
+                <button type="button" class="fopt" data-value="pareja"><svg class="fopt__ico"><use href="#i-heart"></use></svg><span>Pareja</span></button>
+                <button type="button" class="fopt" data-value="mama"><svg class="fopt__ico"><use href="#i-rose"></use></svg><span>Mamá</span></button>
+                <button type="button" class="fopt" data-value="papa"><svg class="fopt__ico"><use href="#i-tie"></use></svg><span>Papá</span></button>
+                <button type="button" class="fopt" data-value="amigo"><svg class="fopt__ico"><use href="#i-star"></use></svg><span>Amigo/a</span></button>
+                <button type="button" class="fopt" data-value="familiar"><svg class="fopt__ico"><use href="#i-basket"></use></svg><span>Familiar</span></button>
+                <button type="button" class="fopt" data-value="companero"><svg class="fopt__ico"><use href="#i-brief"></use></svg><span>Compañero/a</span></button>
+              </div>
+            </div>
+
+            <div class="fstep" data-step="2" data-key="emocion" hidden>
+              <h3 class="fstep__q">¿Qué quieres transmitir?</h3>
+              <div class="fopts">
+                <button type="button" class="fopt" data-value="amor"><svg class="fopt__ico"><use href="#i-heart"></use></svg><span>Amor</span></button>
+                <button type="button" class="fopt" data-value="agradecimiento"><svg class="fopt__ico"><use href="#i-bouquet"></use></svg><span>Agradecimiento</span></button>
+                <button type="button" class="fopt" data-value="felicidad"><svg class="fopt__ico"><use href="#i-balloon"></use></svg><span>Felicidad</span></button>
+                <button type="button" class="fopt" data-value="sorpresa"><svg class="fopt__ico"><use href="#i-gift"></use></svg><span>Sorpresa</span></button>
+                <button type="button" class="fopt" data-value="carino"><svg class="fopt__ico"><use href="#i-bear"></use></svg><span>Cariño</span></button>
+                <button type="button" class="fopt" data-value="celebracion"><svg class="fopt__ico"><use href="#i-sparkle"></use></svg><span>Celebración</span></button>
+              </div>
+            </div>
+
+            <div class="fstep" data-step="3" data-key="ocasion" hidden>
+              <h3 class="fstep__q">¿Qué ocasión celebras?</h3>
+              <div class="fopts">
+                <button type="button" class="fopt" data-value="cumpleanos"><svg class="fopt__ico"><use href="#i-cake"></use></svg><span>Cumpleaños</span></button>
+                <button type="button" class="fopt" data-value="aniversario"><svg class="fopt__ico"><use href="#i-ring"></use></svg><span>Aniversario</span></button>
+                <button type="button" class="fopt" data-value="sanvalentin"><svg class="fopt__ico"><use href="#i-card"></use></svg><span>San Valentín</span></button>
+                <button type="button" class="fopt" data-value="madre"><svg class="fopt__ico"><use href="#i-rose"></use></svg><span>Día de la Madre</span></button>
+                <button type="button" class="fopt" data-value="padre"><svg class="fopt__ico"><use href="#i-tie"></use></svg><span>Día del Padre</span></button>
+                <button type="button" class="fopt" data-value="otra"><svg class="fopt__ico"><use href="#i-sparkle"></use></svg><span>Otra</span></button>
+              </div>
+            </div>
+
+            <div class="fstep fresult" data-step="4" hidden>
+              <div class="unbox" aria-hidden="true">
+                <span class="unbox__rays"></span>
+                <svg class="unbox__svg" viewBox="0 0 200 170">
+                  <g class="unbox__lid"><rect x="30" y="52" width="140" height="28" rx="3"/><rect class="rib" x="92" y="52" width="16" height="28"/><path class="rib" d="M100 52 c-10-24-40-26-34-10 4 9 20 10 34 10z M100 52 c10-24 40-26 34-10-4 9-20 10-34 10z"/></g>
+                  <g class="unbox__body"><rect x="40" y="80" width="120" height="84" rx="2"/><rect class="rib" x="92" y="80" width="16" height="84"/></g>
+                </svg>
+                <span class="unbox__spark s1"></span><span class="unbox__spark s2"></span><span class="unbox__spark s3"></span><span class="unbox__spark s4"></span>
+              </div>
+              <h3 class="fstep__q fresult__title">Tenemos algunas ideas para ti.</h3>
+              <p class="fresult__summary" id="finder-summary"></p>
+              <div class="fresult__grid" id="finder-results"></div>
+              <div class="fresult__actions">
+                <a class="btn btn--gold" id="finder-wa" href="#" target="_blank" rel="noopener" data-magnetic><span>Consultar por WhatsApp</span></a>
+                <button type="button" class="btn btn--ghost" id="finder-restart"><span>Empezar de nuevo</span></button>
+              </div>
+            </div>
+          </div>
+
+          <button type="button" class="finder__back" id="finder-back" hidden><svg class="ico"><use href="#i-chevronL"></use></svg>Volver</button>
+        </div>
+      </div>
+    </section>
+
+    <div class="wave" data-wave style="--from:var(--emerald-d);--to:var(--ivory)" aria-hidden="true">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path class="wave__fill" d="M0 70 C240 30 480 110 720 70 S1200 30 1440 70 V120 H0Z"/><path class="wave__line" d="M0 52 C240 12 480 92 720 52 S1200 12 1440 52"/></svg>
+    </div>
+
+    <!-- ============ CATÁLOGO ============ -->
+    <section class="catalog sec sec--ivory" id="detalles" aria-labelledby="cat-title">
+      <div class="container">
+        <header class="sec-head sec-head--split">
+          <div>
+            <p class="eyebrow" data-reveal="up">La colección</p>
+            <h2 class="h2" id="cat-title" data-reveal="blur">Nuestros detalles <span class="script script--accent">hechos con amor</span></h2>
+          </div>
+          <div class="sec-head__side" data-reveal="up">
+            <p class="sec-head__lead">Una selección para empezar. Todos se pueden adaptar a la persona que los va a recibir.</p>
+            <a class="link-arrow" href="productos.html">Ver toda la colección <svg class="ico"><use href="#i-arrow"></use></svg></a>
+          </div>
+        </header>
+        <div class="pgrid pgrid--editorial" id="catalogo-destacado" data-stagger></div>
+      </div>
+    </section>
+
+    <div class="wave wave--organic" data-wave style="--from:var(--ivory);--to:var(--pastel)" aria-hidden="true">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path class="wave__fill" d="M0 70 C240 30 480 110 720 70 S1200 30 1440 70 V120 H0Z"/><path class="wave__line" d="M0 52 C240 12 480 92 720 52 S1200 12 1440 52"/></svg>
+    </div>
+
+    <!-- ============ DETALLE DE LA SEMANA ============ -->
+    <section class="featured sec sec--pastel" id="destacado" aria-labelledby="feat-title">
+      <span class="blob blob--a" aria-hidden="true"></span>
+      <div class="container featured__grid">
+        <div class="featured__visual" data-reveal="clip">
+          <figure class="media featured__media" data-art="bouquet" data-tone="emerald" data-parallax="-0.08" id="feat-media">
+            <img src="imagenes/productos/ramo-eterno.jpg" alt="Ramo Eterno, detalle de la semana" loading="lazy" decoding="async">
+          </figure>
+          <div class="featured__badge" aria-hidden="true">
+            <svg viewBox="0 0 140 140"><defs><path id="badge-path" d="M70 70 m-54 0 a54 54 0 1 1 108 0 a54 54 0 1 1 -108 0"/></defs>
+              <text><textPath href="#badge-path">detalle de la semana · detalle de la semana ·</textPath></text></svg>
+            <span>N.º 1</span>
+          </div>
+          <span class="petal petal--1" aria-hidden="true"></span><span class="petal petal--2" aria-hidden="true"></span><span class="petal petal--3" aria-hidden="true"></span><span class="petal petal--4" aria-hidden="true"></span>
+        </div>
+        <div class="featured__copy">
+          <p class="eyebrow" data-reveal="up">Detalle de la semana</p>
+          <h2 class="featured__name" id="feat-title" data-reveal="blur">Ramo Eterno</h2>
+          <p class="featured__desc" id="feat-desc" data-reveal="up">Rosas que duran como el recuerdo que van a crear.</p>
+          <ul class="featured__list" id="feat-list" data-reveal="up">
+            <li>Rosas preservadas</li><li>Envoltura artesanal</li><li>Tarjeta escrita a mano</li>
+          </ul>
+          <div class="featured__buy" data-reveal="up">
+            <p class="featured__price" id="feat-price">S/ 129.90</p>
+            <a class="btn btn--deep" id="feat-btn" href="#" target="_blank" rel="noopener" data-magnetic><span>Quiero sorprender</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="wave" data-wave style="--from:var(--pastel);--to:var(--cream)" aria-hidden="true">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path class="wave__fill" d="M0 70 C240 30 480 110 720 70 S1200 30 1440 70 V120 H0Z"/><path class="wave__line" d="M0 52 C240 12 480 92 720 52 S1200 12 1440 52"/></svg>
+    </div>
+
+    <!-- ============ HECHO PARA TI ============ -->
+    <section class="custom sec sec--cream" id="personalizados" aria-labelledby="custom-title">
+      <div class="container">
+        <header class="sec-head sec-head--split">
+          <div>
+            <p class="eyebrow" data-reveal="up">Hecho para ti</p>
+            <h2 class="h2" id="custom-title" data-reveal="blur">Porque cada persona es <em>diferente.</em></h2>
+          </div>
+          <p class="sec-head__lead" data-reveal="up">Muchos de nuestros detalles se pueden personalizar. Prueba aquí cómo podría verse el tuyo y envíanos la idea tal cual.</p>
+        </header>
+
+        <div class="custom__grid">
+          <ul class="custom__list" data-stagger>
+            <li data-reveal="left"><svg class="ico"><use href="#i-pen"></use></svg><div><strong>Nombre personalizado</strong><span>En la etiqueta, la caja o el globo.</span></div></li>
+            <li data-reveal="left"><svg class="ico"><use href="#i-card"></use></svg><div><strong>Dedicatoria</strong><span>Escrita a mano en una tarjeta.</span></div></li>
+            <li data-reveal="left"><svg class="ico"><use href="#i-palette"></use></svg><div><strong>Color</strong><span>De la caja, el lazo y las flores.</span></div></li>
+            <li data-reveal="left"><svg class="ico"><use href="#i-message"></use></svg><div><strong>Mensaje</strong><span>Lo que quieras que lea primero.</span></div></li>
+            <li data-reveal="left"><svg class="ico"><use href="#i-photo"></use></svg><div><strong>Fotografía</strong><span>Impresa, en cofre o en polaroid.</span></div></li>
+            <li data-reveal="left"><svg class="ico"><use href="#i-box3d"></use></svg><div><strong>Presentación</strong><span>Caja, cofre o canasta.</span></div></li>
+            <li data-reveal="left"><svg class="ico"><use href="#i-sparkle"></use></svg><div><strong>Temática</strong><span>Romántica, cumpleaños, elegante o bebé.</span></div></li>
+          </ul>
+
+          <div class="studio" data-reveal="scale">
+            <div class="studio__preview" id="studio-preview" data-theme-deco="romantica">
+              <span class="studio__label">Vista previa</span>
+              <div class="studio__deco" aria-hidden="true">
+                <svg class="d1"><use href="#i-heart"></use></svg><svg class="d2"><use href="#i-heart"></use></svg><svg class="d3"><use href="#i-sparkle"></use></svg><svg class="d4"><use href="#i-heart"></use></svg>
+              </div>
+              <div class="studio__stage">
+                <svg class="studio__svg" viewBox="0 0 360 320" aria-hidden="true">
+                  <ellipse cx="180" cy="298" rx="130" ry="12" class="shadow"/>
+                  <g class="shape shape--caja">
+                    <rect class="fill" x="82" y="150" width="196" height="140" rx="3"/>
+                    <rect class="rib" x="170" y="150" width="20" height="140"/>
+                    <rect class="rib" x="82" y="206" width="196" height="16" opacity=".9"/>
+                    <g class="lid"><rect class="fill-d" x="70" y="118" width="220" height="38" rx="4"/><rect class="rib" x="170" y="118" width="20" height="38"/>
+                      <path class="rib" d="M180 118 c-14-30-54-32-46-12 5 11 26 12 46 12z M180 118 c14-30 54-32 46-12-5 11-26 12-46 12z"/></g>
+                  </g>
+                  <g class="shape shape--cofre">
+                    <rect class="fill" x="82" y="160" width="196" height="130" rx="4"/>
+                    <path class="fill-d lid" d="M72 164 C72 110 120 92 180 92 S288 110 288 164 Z"/>
+                    <rect class="rib" x="170" y="92" width="20" height="198"/>
+                    <rect class="rib" x="164" y="152" width="32" height="30" rx="4"/>
+                  </g>
+                  <g class="shape shape--canasta">
+                    <path class="handle" d="M110 170 C110 70 250 70 250 170" fill="none" stroke-width="10"/>
+                    <path class="fill" d="M70 160 H290 L268 290 H92 Z"/>
+                    <path class="weave" d="M80 190 H280 M84 220 H276 M88 250 H272 M120 160 L128 290 M160 160 L162 290 M200 160 L198 290 M240 160 L232 290" fill="none"/>
+                    <path class="rib" d="M180 170 c-14-30-54-32-46-12 5 11 26 12 46 12z M180 170 c14-30 54-32 46-12-5 11-26 12-46 12z"/>
+                  </g>
+                </svg>
+                <div class="studio__tag"><span class="studio__string"></span><span class="studio__tagtext" id="studio-tag">Para ti</span></div>
+                <div class="studio__polaroid" id="studio-photo"><span class="studio__photo-empty"><svg class="ico"><use href="#i-photo"></use></svg></span></div>
+                <div class="studio__card"><span id="studio-card">Gracias por existir.</span></div>
+              </div>
+            </div>
+
+            <form class="studio__controls" id="studio-form" novalidate>
+              <div class="field">
+                <label for="st-name">Nombre</label>
+                <input id="st-name" type="text" maxlength="16" placeholder="Ej. Andrea" autocomplete="off">
+              </div>
+              <div class="field">
+                <label for="st-msg">Dedicatoria</label>
+                <input id="st-msg" type="text" maxlength="60" placeholder="Ej. Gracias por existir." autocomplete="off">
+              </div>
+              <fieldset class="field">
+                <legend>Color</legend>
+                <div class="swatches" role="radiogroup" aria-label="Color">
+                  <label class="swatch" style="--sw:#1f5c45"><input type="radio" name="st-color" value="verde" checked><span></span><em>Verde</em></label>
+                  <label class="swatch" style="--sw:#f3ecdd"><input type="radio" name="st-color" value="marfil"><span></span><em>Marfil</em></label>
+                  <label class="swatch" style="--sw:#e9cfc8"><input type="radio" name="st-color" value="rosa"><span></span><em>Rosa tenue</em></label>
+                  <label class="swatch" style="--sw:#e3cfa6"><input type="radio" name="st-color" value="champagne"><span></span><em>Champagne</em></label>
+                  <label class="swatch" style="--sw:#0d3a2b"><input type="radio" name="st-color" value="noche"><span></span><em>Esmeralda noche</em></label>
+                </div>
+              </fieldset>
+              <fieldset class="field">
+                <legend>Presentación</legend>
+                <div class="seg" role="radiogroup">
+                  <label><input type="radio" name="st-shape" value="caja" checked><span>Caja</span></label>
+                  <label><input type="radio" name="st-shape" value="cofre"><span>Cofre</span></label>
+                  <label><input type="radio" name="st-shape" value="canasta"><span>Canasta</span></label>
+                </div>
+              </fieldset>
+              <fieldset class="field">
+                <legend>Temática</legend>
+                <div class="seg" role="radiogroup">
+                  <label><input type="radio" name="st-theme" value="romantica" checked><span>Romántica</span></label>
+                  <label><input type="radio" name="st-theme" value="cumpleanos"><span>Cumpleaños</span></label>
+                  <label><input type="radio" name="st-theme" value="elegante"><span>Elegante</span></label>
+                  <label><input type="radio" name="st-theme" value="bebe"><span>Bebé</span></label>
+                </div>
+              </fieldset>
+              <div class="field field--file">
+                <label for="st-photo" class="file-btn"><svg class="ico"><use href="#i-upload"></use></svg><span>Probar con una foto</span></label>
+                <input id="st-photo" type="file" accept="image/*" class="sr-only">
+                <small>La foto solo se muestra aquí, no se sube a ningún lado.</small>
+              </div>
+              <a class="btn btn--deep btn--block" id="studio-wa" href="#" target="_blank" rel="noopener" data-magnetic><span>Pedir con esta idea</span></a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="wave" data-wave style="--from:var(--cream);--to:var(--deep)" aria-hidden="true">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path class="wave__fill" d="M0 70 C240 30 480 110 720 70 S1200 30 1440 70 V120 H0Z"/><path class="wave__line" d="M0 52 C240 12 480 92 720 52 S1200 12 1440 52"/></svg>
+    </div>
+
+    <!-- ============ PROCESO ============ -->
+    <section class="process sec sec--deep" id="proceso" aria-labelledby="proc-title">
+      <div class="container">
+        <header class="sec-head sec-head--center">
+          <p class="eyebrow eyebrow--light" data-reveal="up">El proceso</p>
+          <h2 class="h2 h2--light" id="proc-title" data-reveal="blur">Así hacemos tu <em>detalle</em></h2>
+        </header>
+        <div class="process__track" id="process-track">
+          <svg class="process__line" viewBox="0 0 1200 140" preserveAspectRatio="none" aria-hidden="true">
+            <path class="process__base" d="M0 70 C 100 20, 200 120, 300 70 S 500 20, 600 70 S 800 120, 900 70 S 1100 20, 1200 70"/>
+            <path class="process__draw" pathLength="1" d="M0 70 C 100 20, 200 120, 300 70 S 500 20, 600 70 S 800 120, 900 70 S 1100 20, 1200 70"/>
+          </svg>
+          <span class="process__vline" aria-hidden="true"><i></i></span>
+          <ol class="process__steps">
+            <li class="pstep" data-at="0.12"><span class="pstep__dot"><svg class="ico"><use href="#i-heart"></use></svg></span><span class="pstep__num">01</span><h3>Eliges</h3><p>Escoge un detalle de la colección o cuéntanos la idea que tienes en mente.</p></li>
+            <li class="pstep" data-at="0.37"><span class="pstep__dot"><svg class="ico"><use href="#i-pen"></use></svg></span><span class="pstep__num">02</span><h3>Personalizas</h3><p>Definimos contigo el nombre, la dedicatoria, los colores y las fotos.</p></li>
+            <li class="pstep" data-at="0.62"><span class="pstep__dot"><svg class="ico"><use href="#i-gift"></use></svg></span><span class="pstep__num">03</span><h3>Preparamos</h3><p>Lo armamos a mano, cuidando cada lazo, cada flor y cada letra.</p></li>
+            <li class="pstep" data-at="0.87"><span class="pstep__dot"><svg class="ico"><use href="#i-sparkle"></use></svg></span><span class="pstep__num">04</span><h3>Sorprendes</h3><p>Llega el momento. Solo te queda ver su reacción.</p></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <div class="wave" data-wave style="--from:var(--deep);--to:var(--ivory)" aria-hidden="true">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path class="wave__fill" d="M0 70 C240 30 480 110 720 70 S1200 30 1440 70 V120 H0Z"/><path class="wave__line" d="M0 52 C240 12 480 92 720 52 S1200 12 1440 52"/></svg>
+    </div>
+
+    <!-- ============ GALERÍA ============ -->
+    <section class="gallery sec sec--ivory" id="galeria" aria-labelledby="gal-title">
+      <div class="container">
+        <header class="sec-head sec-head--split">
+          <div>
+            <p class="eyebrow" data-reveal="up">Galería</p>
+            <h2 class="h2" id="gal-title" data-reveal="blur">Momentos que ya <em>sorprendimos</em></h2>
+          </div>
+          <p class="sec-head__lead" data-reveal="up">Toca cualquier imagen para verla en grande.</p>
+        </header>
+        <div class="mosaic" id="mosaic" data-stagger>
+          <button class="mosaic__item m1" type="button" data-reveal="clip" data-cursor="Ampliar" data-caption="Box para aniversario"><figure class="media" data-art="gift" data-tone="deep" data-parallax="0.06"><img src="imagenes/galeria/galeria-01.jpg" alt="Box para aniversario" loading="lazy" decoding="async"></figure><span class="mosaic__cap">Box para aniversario</span></button>
+          <button class="mosaic__item m2" type="button" data-reveal="clip" data-cursor="Ampliar" data-caption="Ramo de rosas preservadas"><figure class="media" data-art="rose" data-tone="blush"><img src="imagenes/galeria/galeria-02.jpg" alt="Ramo de rosas preservadas" loading="lazy" decoding="async"></figure><span class="mosaic__cap">Ramo de rosas</span></button>
+          <button class="mosaic__item m3" type="button" data-reveal="clip" data-cursor="Ampliar" data-caption="Globo burbuja con nombre"><figure class="media" data-art="balloon" data-tone="champagne"><img src="imagenes/galeria/galeria-03.jpg" alt="Globo burbuja con nombre" loading="lazy" decoding="async"></figure><span class="mosaic__cap">Globo burbuja</span></button>
+          <button class="mosaic__item m4" type="button" data-reveal="clip" data-cursor="Ampliar" data-caption="Desayuno sorpresa"><figure class="media" data-art="cup" data-tone="cream" data-parallax="-0.05"><img src="imagenes/galeria/galeria-04.jpg" alt="Desayuno sorpresa" loading="lazy" decoding="async"></figure><span class="mosaic__cap">Desayuno sorpresa</span></button>
+          <button class="mosaic__item m5" type="button" data-reveal="clip" data-cursor="Ampliar" data-caption="Cofre de recuerdos con fotos"><figure class="media" data-art="chest" data-tone="emerald"><img src="imagenes/galeria/galeria-05.jpg" alt="Cofre de recuerdos con fotos" loading="lazy" decoding="async"></figure><span class="mosaic__cap">Cofre de recuerdos</span></button>
+          <button class="mosaic__item m6" type="button" data-reveal="clip" data-cursor="Ampliar" data-caption="Peluche con dedicatoria"><figure class="media" data-art="bear" data-tone="pastel"><img src="imagenes/galeria/galeria-06.jpg" alt="Peluche con dedicatoria" loading="lazy" decoding="async"></figure><span class="mosaic__cap">Peluche con dedicatoria</span></button>
+          <button class="mosaic__item m7" type="button" data-reveal="clip" data-cursor="Ampliar" data-caption="Torre de chocolates"><figure class="media" data-art="choco" data-tone="champagne" data-parallax="0.05"><img src="imagenes/galeria/galeria-07.jpg" alt="Torre de chocolates" loading="lazy" decoding="async"></figure><span class="mosaic__cap">Torre de chocolates</span></button>
+          <button class="mosaic__item m8" type="button" data-reveal="clip" data-cursor="Ampliar" data-caption="Pedida de mano"><figure class="media" data-art="ring" data-tone="deep"><img src="imagenes/galeria/galeria-08.jpg" alt="Decoración para pedida de mano" loading="lazy" decoding="async"></figure><span class="mosaic__cap">Pedida de mano</span></button>
+          <button class="mosaic__item m9" type="button" data-reveal="clip" data-cursor="Ampliar" data-caption="Canasta de bienvenida bebé"><figure class="media" data-art="baby" data-tone="cream"><img src="imagenes/galeria/galeria-09.jpg" alt="Canasta de bienvenida para bebé" loading="lazy" decoding="async"></figure><span class="mosaic__cap">Bienvenida bebé</span></button>
+        </div>
+      </div>
+    </section>
+
+    <div class="wave wave--organic" data-wave style="--from:var(--ivory);--to:var(--champagne)" aria-hidden="true">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path class="wave__fill" d="M0 70 C240 30 480 110 720 70 S1200 30 1440 70 V120 H0Z"/><path class="wave__line" d="M0 52 C240 12 480 92 720 52 S1200 12 1440 52"/></svg>
+    </div>
+
+    <!-- ============ UN DETALLE, UNA HISTORIA ============ -->
+    <section class="story sec sec--champagne" id="historia" aria-labelledby="story-title">
+      <div class="container story__grid">
+        <div class="story__visual" data-reveal="clip">
+          <figure class="media story__media" data-art="card" data-tone="deep" data-parallax="-0.07">
+            <img src="imagenes/galeria/historia.jpg" alt="Un regalo envuelto con una tarjeta escrita a mano" loading="lazy" decoding="async">
+          </figure>
+          <span class="story__frame" aria-hidden="true"></span>
+        </div>
+        <div class="story__copy">
+          <p class="script story__script" data-reveal="up">Un detalle, una historia</p>
+          <h2 class="h2" id="story-title" data-reveal="blur">Cada detalle cuenta una historia.</h2>
+          <p class="story__text" data-scrub>No se trata solamente de regalar algo. Se trata de hacer sentir especial a alguien. Detrás de cada caja hay una fecha que alguien no quiere olvidar, un gracias que no se dijo a tiempo, un te quiero que necesitaba forma. Nosotros ponemos las manos; la historia la pones tú.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="wave" data-wave style="--from:var(--champagne);--to:var(--pastel)" aria-hidden="true">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path class="wave__fill" d="M0 70 C240 30 480 110 720 70 S1200 30 1440 70 V120 H0Z"/><path class="wave__line" d="M0 52 C240 12 480 92 720 52 S1200 12 1440 52"/></svg>
+    </div>
+
+    <!-- ============ TESTIMONIOS ============ -->
+    <section class="reviews sec sec--pastel" id="testimonios" aria-labelledby="rev-title">
+      <div class="container">
+        <header class="sec-head sec-head--center">
+          <p class="eyebrow" data-reveal="up">Testimonios</p>
+          <h2 class="h2" id="rev-title" data-reveal="blur">Lo que dicen quienes <em>sorprendieron</em></h2>
+        </header>
+      </div>
+      <div class="marquee" id="reviews" data-reveal="up">
+        <div class="marquee__track" id="reviews-track"></div>
+      </div>
+    </section>
+
+    <div class="wave" data-wave style="--from:var(--pastel);--to:var(--cream)" aria-hidden="true">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path class="wave__fill" d="M0 70 C240 30 480 110 720 70 S1200 30 1440 70 V120 H0Z"/><path class="wave__line" d="M0 52 C240 12 480 92 720 52 S1200 12 1440 52"/></svg>
+    </div>
+
+    <!-- ============ FECHAS ESPECIALES ============ -->
+    <section class="dates sec sec--cream" id="fechas" aria-labelledby="dates-title">
+      <div class="container">
+        <header class="sec-head sec-head--split">
+          <div>
+            <p class="eyebrow" data-reveal="up">Calendario de sorpresas</p>
+            <h2 class="h2" id="dates-title" data-reveal="blur">Próximas ocasiones para <em>sorprender</em></h2>
+          </div>
+          <p class="sec-head__lead" data-reveal="up">Reserva con tiempo: en fechas especiales los pedidos se agotan rápido.</p>
+        </header>
+        <div class="dates__grid" id="dates-grid" data-stagger></div>
+      </div>
+    </section>
+
+    <div class="wave" data-wave style="--from:var(--cream);--to:var(--deep)" aria-hidden="true">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path class="wave__fill" d="M0 70 C240 30 480 110 720 70 S1200 30 1440 70 V120 H0Z"/><path class="wave__line" d="M0 52 C240 12 480 92 720 52 S1200 12 1440 52"/></svg>
+    </div>
+
+    <!-- ============ CONTACTO ============ -->
+    <section class="contact sec sec--deep" id="contacto" aria-labelledby="contact-title">
+      <div class="container contact__grid">
+        <div class="contact__copy">
+          <p class="script contact__script" data-reveal="up">Tu Detalle Chincha</p>
+          <h2 class="h2 h2--light" id="contact-title" data-reveal="blur">Estamos aquí para ayudarte a encontrar ese detalle <em>especial.</em></h2>
+          <a class="btn btn--gold" data-wa href="#" target="_blank" rel="noopener" data-magnetic data-reveal="up"><svg class="ico"><use href="#i-whatsapp"></use></svg><span>Escríbenos por WhatsApp</span></a>
+        </div>
+        <ul class="contact__list" data-stagger>
+          <li data-reveal="right"><svg class="ico"><use href="#i-whatsapp"></use></svg><div><span>WhatsApp</span><a data-wa data-cfg="telefono" href="#" target="_blank" rel="noopener">+51 999 999 999</a></div></li>
+          <li data-reveal="right"><svg class="ico"><use href="#i-instagram"></use></svg><div><span>Instagram</span><a data-social="instagram" href="#" target="_blank" rel="noopener">@tudetallechincha</a></div></li>
+          <li data-reveal="right"><svg class="ico"><use href="#i-facebook"></use></svg><div><span>Facebook</span><a data-social="facebook" href="#" target="_blank" rel="noopener">Tu Detalle Chincha</a></div></li>
+          <li data-reveal="right"><svg class="ico"><use href="#i-tiktok"></use></svg><div><span>TikTok</span><a data-social="tiktok" href="#" target="_blank" rel="noopener">@tudetallechincha</a></div></li>
+          <li data-reveal="right"><svg class="ico"><use href="#i-pin"></use></svg><div><span>Ubicación</span><a data-cfg="ubicacion" data-map href="#" target="_blank" rel="noopener">Chincha Alta, Ica – Perú</a></div></li>
+          <li data-reveal="right"><svg class="ico"><use href="#i-clock"></use></svg><div><span>Horario</span><p data-cfg="horario">Lunes a sábado · 9:00 a. m. – 8:00 p. m.</p></div></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <svg class="footer__waves" viewBox="0 0 1440 160" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 60 C 240 10, 480 120, 720 60 S 1200 0, 1440 60"/><path d="M0 90 C 260 40, 500 150, 740 90 S 1220 30, 1440 90"/>
+    </svg>
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a class="brand brand--lg" href="index.html" aria-label="Tu Detalle Chincha, ir al inicio">
+          <img class="brand__img" src="imagenes/logo.png" alt="" width="190" height="76">
+          <span class="brand__type" aria-hidden="true">
+            <svg class="brand__waves" viewBox="0 0 120 20" preserveAspectRatio="none"><path d="M0 12 C 15 2, 30 20, 45 10 S 75 2, 90 10 S 110 18, 120 8"/></svg>
+            <span class="brand__script">Tu Detalle</span><span class="brand__sub">Chincha</span>
+          </span>
+        </a>
+        <p>Regalos y detalles personalizados para convertir fechas, personas y momentos en recuerdos.</p>
+      </div>
+      <nav class="footer__col" aria-label="Enlaces del pie">
+        <h3>Explora</h3>
+        <a href="index.html">Inicio</a><a href="productos.html">Detalles</a><a href="index.html#ocasiones">Categorías</a><a href="index.html#personalizados">Personalizados</a><a href="nosotros.html">Nosotros</a><a href="contacto.html">Contacto</a>
+      </nav>
+      <div class="footer__col">
+        <h3>Síguenos</h3>
+        <div class="socials">
+          <a data-social="instagram" href="#" target="_blank" rel="noopener" aria-label="Instagram"><svg class="ico"><use href="#i-instagram"></use></svg></a>
+          <a data-social="facebook" href="#" target="_blank" rel="noopener" aria-label="Facebook"><svg class="ico"><use href="#i-facebook"></use></svg></a>
+          <a data-social="tiktok" href="#" target="_blank" rel="noopener" aria-label="TikTok"><svg class="ico"><use href="#i-tiktok"></use></svg></a>
+        </div>
+        <a class="footer__wa" data-wa href="#" target="_blank" rel="noopener"><svg class="ico"><use href="#i-whatsapp"></use></svg><span data-cfg="telefono">+51 999 999 999</span></a>
+      </div>
+    </div>
+    <p class="footer__giant" aria-hidden="true">Tu Detalle</p>
+    <div class="container footer__bottom">
+      <p>© <span data-year>2026</span> Tu Detalle Chincha. Todos los derechos reservados.</p>
+      <p class="footer__made">Hecho con cariño en Chincha</p>
+    </div>
+  </footer>
+
+  <!-- ============ WHATSAPP FLOTANTE ============ -->
+  <a class="wa-float" data-wa href="#" target="_blank" rel="noopener" aria-label="Consultar un detalle por WhatsApp">
+    <span class="wa-float__tip">¿Quieres consultar un detalle?</span>
+    <span class="wa-float__btn"><svg class="ico"><use href="#i-whatsapp"></use></svg></span>
+  </a>
+
+  <!-- ============ LIGHTBOX ============ -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Imagen ampliada" hidden>
+    <button class="lightbox__close" type="button" aria-label="Cerrar"><svg class="ico"><use href="#i-close"></use></svg></button>
+    <button class="lightbox__nav lightbox__nav--prev" type="button" aria-label="Imagen anterior"><svg class="ico"><use href="#i-chevronL"></use></svg></button>
+    <figure class="lightbox__fig"><div class="lightbox__img"></div><figcaption class="lightbox__cap"></figcaption></figure>
+    <button class="lightbox__nav lightbox__nav--next" type="button" aria-label="Imagen siguiente"><svg class="ico"><use href="#i-chevronR"></use></svg></button>
+  </div>
+</body>
+</html>

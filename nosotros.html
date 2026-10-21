@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Nosotros · Tu Detalle Chincha</title>
+  <meta name="description" content="Conoce a Tu Detalle Chincha: detalles y regalos personalizados hechos a mano en Chincha.">
+  <meta name="theme-color" content="#0d3a2b">
+  <link rel="icon" href="imagenes/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=Jost:wght@300;400;500;600&family=Parisienne&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/productos.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script defer src="js/config.js"></script>
+  <script defer src="js/ilustraciones.js"></script>
+  <script defer src="js/productos.js"></script>
+  <script defer src="js/animations.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+<body class="page-nosotros">
+
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+
+  <div class="thread" aria-hidden="true"><span class="thread__bar"></span></div>
+  <div class="cursor" aria-hidden="true"><span class="cursor__dot"></span><span class="cursor__ring"><span class="cursor__label"></span></span></div>
+
+  <!-- ============ NAVEGACIÓN ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a class="brand" href="index.html" aria-label="Tu Detalle Chincha, ir al inicio">
+        <img class="brand__img" src="imagenes/logo.png" alt="" width="150" height="60">
+        <span class="brand__type" aria-hidden="true">
+          <svg class="brand__waves" viewBox="0 0 120 20" preserveAspectRatio="none"><path d="M0 12 C 15 2, 30 20, 45 10 S 75 2, 90 10 S 110 18, 120 8"/></svg>
+          <span class="brand__script">Tu Detalle</span>
+          <span class="brand__sub">Chincha</span>
+        </span>
+      </a>
+      <nav class="nav__menu" aria-label="Principal">
+        <a href="index.html" class="nav__link">Inicio</a>
+        <a href="productos.html" class="nav__link">Detalles</a>
+        <a href="index.html#ocasiones" class="nav__link">Ocasiones</a>
+        <a href="index.html#personalizados" class="nav__link">Personalizados</a>
+        <a href="nosotros.html" class="nav__link is-active" aria-current="page">Nosotros</a>
+        <a href="contacto.html" class="nav__link">Contacto</a>
+      </nav>
+      <a class="btn btn--nav" href="index.html#encuentra" data-magnetic>Encuentra tu detalle</a>
+      <button class="burger" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="mmenu" id="mobile-menu" hidden>
+    <svg class="mmenu__waves" viewBox="0 0 400 200" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 80 C 80 30, 160 130, 240 80 S 360 30, 400 70"/><path d="M0 110 C 90 60, 170 160, 250 110 S 370 60, 400 100"/>
+    </svg>
+    <nav class="mmenu__links" aria-label="Menú móvil">
+      <a href="index.html" style="--i:0">Inicio</a>
+      <a href="productos.html" style="--i:1">Detalles</a>
+      <a href="index.html#ocasiones" style="--i:2">Ocasiones</a>
+      <a href="index.html#personalizados" style="--i:3">Personalizados</a>
+      <a href="nosotros.html" style="--i:4">Nosotros</a>
+      <a href="contacto.html" style="--i:5">Contacto</a>
+    </nav>
+    <a class="btn btn--gold mmenu__cta" href="index.html#encuentra">Encuentra tu detalle</a>
+    <p class="mmenu__script">Un detalle puede decir lo que las palabras no pueden.</p>
+  </div>
+
+  <main id="contenido">
+    <section class="phero" aria-labelledby="ntitle">
+      <div class="hero__bg" aria-hidden="true">
+        <span class="glow glow--1"></span><span class="glow glow--2"></span>
+        <svg class="hero__lines" viewBox="0 0 1440 600" preserveAspectRatio="none"><path d="M-20 460 C 200 380, 380 540, 620 450 S 1040 360, 1460 420"/><path d="M-20 500 C 220 420, 400 580, 640 490 S 1060 400, 1460 460"/></svg>
+      </div>
+      <div class="container phero__inner">
+        <p class="crumbs" data-in style="--in:0"><a href="index.html">Inicio</a><span>/</span><span>Nosotros</span></p>
+        <h1 class="phero__title" id="ntitle" data-in style="--in:1">Detrás de cada detalle hay <em>manos</em> y una historia.</h1>
+        <p class="phero__lead" data-in style="--in:2">Somos Tu Detalle Chincha: preparamos regalos pensados para que alguien se sienta especial.</p>
+      </div>
+    </section>
+
+    <div class="wave" data-wave style="--from:var(--deep);--to:var(--cream)" aria-hidden="true">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path class="wave__fill" d="M0 70 C240 30 480 110 720 70 S1200 30 1440 70 V120 H0Z"/><path class="wave__line" d="M0 52 C240 12 480 92 720 52 S1200 12 1440 52"/></svg>
+    </div>
+
+    <section class="sec sec--cream" aria-labelledby="story2">
+      <div class="container split">
+        <div class="story__visual" data-reveal="clip">
+          <figure class="media story__media" data-art="gift" data-tone="deep" data-parallax="-0.06"><img src="imagenes/galeria/nosotros.jpg" alt="Preparando un detalle a mano" loading="lazy" decoding="async"></figure>
+          <span class="story__frame" aria-hidden="true"></span>
+        </div>
+        <div class="prose">
+          <p class="eyebrow" data-reveal="up">Nuestra historia</p>
+          <h2 class="h2" id="story2" data-reveal="blur" style="margin-bottom:1.6rem">Un detalle puede decir lo que las <em>palabras</em> no pueden.</h2>
+          <!-- ✏️ Reemplaza estos párrafos con la historia real del emprendimiento -->
+          <p class="lead" data-reveal="up">Creemos que un regalo no se mide por lo que cuesta, sino por lo que hace sentir.</p>
+          <p data-reveal="up">Por eso cada caja, cada ramo y cada globo se arma a mano, pensando en la persona que lo va a recibir. Escuchamos lo que quieres decir y lo convertimos en algo que se puede tocar.</p>
+          <p data-reveal="up">Desde Chincha preparamos detalles para aniversarios, cumpleaños, fechas especiales y también para empresas que quieren cuidar a sus clientes y equipos.</p>
+          <span class="editable-note">Texto editable · agrega aquí tu historia</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="wave" data-wave style="--from:var(--cream);--to:var(--pastel)" aria-hidden="true">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path class="wave__fill" d="M0 70 C240 30 480 110 720 70 S1200 30 1440 70 V120 H0Z"/><path class="wave__line" d="M0 52 C240 12 480 92 720 52 S1200 12 1440 52"/></svg>
+    </div>
+
+    <section class="sec sec--pastel" aria-labelledby="vals">
+      <div class="container">
+        <header class="sec-head sec-head--center">
+          <p class="eyebrow" data-reveal="up">Lo que nos importa</p>
+          <h2 class="h2" id="vals" data-reveal="blur">Tres cosas que cuidamos en <em>cada</em> pedido</h2>
+        </header>
+        <div class="values" data-stagger>
+          <article class="value" data-reveal="up"><svg class="ico"><use href="#i-heart"></use></svg><h3>Hecho a mano</h3><p>Nada sale de una línea de producción. Cada lazo y cada letra los ponemos nosotros.</p></article>
+          <article class="value" data-reveal="up"><svg class="ico"><use href="#i-pen"></use></svg><h3>Pensado para alguien</h3><p>Nombre, dedicatoria, colores y fotos: el detalle se adapta a la persona, no al revés.</p></article>
+          <article class="value" data-reveal="up"><svg class="ico"><use href="#i-clock"></use></svg><h3>A tiempo</h3><p>Coordinamos contigo la fecha y la hora para que la sorpresa llegue en el momento justo.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <div class="wave" data-wave style="--from:var(--pastel);--to:var(--deep)" aria-hidden="true">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path class="wave__fill" d="M0 70 C240 30 480 110 720 70 S1200 30 1440 70 V120 H0Z"/><path class="wave__line" d="M0 52 C240 12 480 92 720 52 S1200 12 1440 52"/></svg>
+    </div>
+
+    <section class="sec sec--deep" aria-labelledby="ncta">
+      <div class="container cta-band">
+        <p class="script" data-reveal="up">¿Empezamos?</p>
+        <h2 class="h2 h2--light" id="ncta" data-reveal="blur">Encontremos juntos el detalle <em>perfecto.</em></h2>
+        <div class="hero__actions" style="justify-content:center;margin-top:0" data-reveal="up">
+          <a class="btn btn--gold" href="productos.html" data-magnetic><span>Ver la colección</span></a>
+          <a class="btn btn--ghost" data-wa href="#" target="_blank" rel="noopener" data-magnetic><span>Hablar por WhatsApp</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <svg class="footer__waves" viewBox="0 0 1440 160" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 60 C 240 10, 480 120, 720 60 S 1200 0, 1440 60"/><path d="M0 90 C 260 40, 500 150, 740 90 S 1220 30, 1440 90"/>
+    </svg>
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a class="brand brand--lg" href="index.html" aria-label="Tu Detalle Chincha, ir al inicio">
+          <img class="brand__img" src="imagenes/logo.png" alt="" width="190" height="76">
+          <span class="brand__type" aria-hidden="true">
+            <svg class="brand__waves" viewBox="0 0 120 20" preserveAspectRatio="none"><path d="M0 12 C 15 2, 30 20, 45 10 S 75 2, 90 10 S 110 18, 120 8"/></svg>
+            <span class="brand__script">Tu Detalle</span><span class="brand__sub">Chincha</span>
+          </span>
+        </a>
+        <p>Regalos y detalles personalizados para convertir fechas, personas y momentos en recuerdos.</p>
+      </div>
+      <nav class="footer__col" aria-label="Enlaces del pie">
+        <h3>Explora</h3>
+        <a href="index.html">Inicio</a><a href="productos.html">Detalles</a><a href="index.html#ocasiones">Categorías</a><a href="index.html#personalizados">Personalizados</a><a href="nosotros.html">Nosotros</a><a href="contacto.html">Contacto</a>
+      </nav>
+      <div class="footer__col">
+        <h3>Síguenos</h3>
+        <div class="socials">
+          <a data-social="instagram" href="#" target="_blank" rel="noopener" aria-label="Instagram"><svg class="ico"><use href="#i-instagram"></use></svg></a>
+          <a data-social="facebook" href="#" target="_blank" rel="noopener" aria-label="Facebook"><svg class="ico"><use href="#i-facebook"></use></svg></a>
+          <a data-social="tiktok" href="#" target="_blank" rel="noopener" aria-label="TikTok"><svg class="ico"><use href="#i-tiktok"></use></svg></a>
+        </div>
+        <a class="footer__wa" data-wa href="#" target="_blank" rel="noopener"><svg class="ico"><use href="#i-whatsapp"></use></svg><span data-cfg="telefono">+51 999 999 999</span></a>
+      </div>
+    </div>
+    <p class="footer__giant" aria-hidden="true">Tu Detalle</p>
+    <div class="container footer__bottom">
+      <p>© <span data-year>2026</span> Tu Detalle Chincha. Todos los derechos reservados.</p>
+      <p class="footer__made">Hecho con cariño en Chincha</p>
+    </div>
+  </footer>
+
+  <!-- ============ WHATSAPP FLOTANTE ============ -->
+  <a class="wa-float" data-wa href="#" target="_blank" rel="noopener" aria-label="Consultar un detalle por WhatsApp">
+    <span class="wa-float__tip">¿Quieres consultar un detalle?</span>
+    <span class="wa-float__btn"><svg class="ico"><use href="#i-whatsapp"></use></svg></span>
+  </a>
+
+</body>
+</html>
